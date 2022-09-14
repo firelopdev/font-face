@@ -1,0 +1,16 @@
+/* @font-face phải luôn được gắn trên cùng */
+@font-face {
+  font-family: "Anton";
+  src: url("fonts/Anton-Regular.eot"); /* .eot -> IE9 */
+  src: url("fonts/Anton-Regular.eot?#iefix") format("embedded-opentype"),
+    /* .eot -> IE6 - IE8 */ url("fonts/Anton-Regular.woff2") format("woff2"),
+    /* .woff2 -> siêu hiện đại */ url("fonts/Anton-Regular.woff") format("woff"),
+    /* .woff -> khá hiện đại */ url("fonts/Anton-Regular.ttf")
+      format("truetype"),
+    /* .ttf -> Safari, Android, IOS */
+      url("fonts/Anton-Regular.svg#Anton-Regular"); /* .svg cho trình duyệt Safari dưới 4.0 */
+}
+
+.my-text {
+  font-family: "Anton";
+}
